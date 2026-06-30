@@ -3,4 +3,5 @@
 set -e
 
 mkdir -p ~/.config
-ln -sf $PWD/.config/nvim ~/.config/nvim
+rm -f ~/.config/nvim
+ln -s "$PWD" ~/.config/nvim
